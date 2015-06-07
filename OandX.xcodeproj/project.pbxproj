@@ -13,6 +13,7 @@
 		5FD1713A1B1C774C0093128A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD171391B1C774C0093128A /* Images.xcassets */; };
 		5FD1713D1B1C774C0093128A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FD1713B1B1C774C0093128A /* LaunchScreen.xib */; };
 		5FD171491B1C774C0093128A /* OandXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD171481B1C774C0093128A /* OandXTests.swift */; };
+		5FD171531B1C7E830093128A /* OandXModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD171521B1C7E830093128A /* OandXModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5FD171421B1C774C0093128A /* OandXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OandXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD171471B1C774C0093128A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FD171481B1C774C0093128A /* OandXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OandXTests.swift; sourceTree = "<group>"; };
+		5FD171521B1C7E830093128A /* OandXModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OandXModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +61,13 @@
 		5FD171241B1C774C0093128A = {
 			isa = PBXGroup;
 			children = (
+				5FD171521B1C7E830093128A /* OandXModel.swift */,
 				5FD1712F1B1C774C0093128A /* OandX */,
 				5FD171451B1C774C0093128A /* OandXTests */,
 				5FD1712E1B1C774C0093128A /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		5FD1712E1B1C774C0093128A /* Products */ = {
 			isa = PBXGroup;
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD171531B1C7E830093128A /* OandXModel.swift in Sources */,
 				5FD171351B1C774C0093128A /* ViewController.swift in Sources */,
 				5FD171331B1C774C0093128A /* AppDelegate.swift in Sources */,
 			);
