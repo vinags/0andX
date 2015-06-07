@@ -34,7 +34,7 @@ class OandXModel {
         return board
     }
     
-    // Check the board to see if the game has been won. If 'plauer' is true, check tto see if the player has won,
+    // Check the board to see if the game has been won. If 'plauer' is true, check to see if the player has won,
     // otherwise check to see if the computer won. Return true if the game has been won. Otherwise return false.
     func checkBoard(player: Bool) -> Bool {
         let character = player ? 0 : 1
